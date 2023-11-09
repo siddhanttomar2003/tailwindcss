@@ -1,11 +1,12 @@
 {
-  "name": "tailwindvs",
+  "name": "fblogin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "vite"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {

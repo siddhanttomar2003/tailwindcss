@@ -3,34 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHONE WEBSITE</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
+    <link rel="stylesheet" href="style.css">
+    <title>facebook login-signup</title>
 </head>
 <body>
-     <div class="bg-purple-600 text-white flex justify-between h-11 items-center ">
-              <div class="flex justify-center gap-0">
-            <img src="./185028_iphone_phone_icon.png" class=" h-12 w-18 px-3 py-2" alt="">
-            <p class="text-white py-2 font-semibold text-2xl">PHONEMANIA</p>
-               </div>
-               <div class="flex space-x-4 justify-end align-middle px-20 py-8">
-                       <div class="hover:bg-white hover:text-purple-600 rounded-xl px-2 py-1"><a href="" >HOME</a></div>
-                       <div class="hover:bg-white hover:text-purple-600 rounded-xl px-2 py-1"><a href="" >ABOUT</a></div>
-                       <div class="hover:bg-white hover:text-purple-600 rounded-xl px-2 py-1"><a href="" >CATALOGUE</a></div>
-                       <div class="hover:bg-white hover:text-purple-600 rounded-xl px-4 py-1"><a href="" >CONTACT US</a></div>
-                 </div>
-        
-        
-     </div>
-                             <div class=" bg-purple-100 h-4/4 flex justify-evenly">
-                                <div class="py-40 pl-10">
-                                    <p class="text-5xl font-semibold ">THE BEST PHONE SELLING SITE</p>
-                                     <p class="text-lg font-medium w-2/3 py-4 pl-1.5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, optio, facilis alias magnam odit perspiciatis dolore consequuntur ratione, ipsa debitis asperiores impedit et dolorem sint in non vero eius neque.</p>
-                                </div>
-                                <div class="flex items-center justify-center pr-8">
-                                    <img src="./phone-removebg-preview.jpg" alt="" class="h-65 w-50">
-                                </div>
-                              </div>
+  <div class="container flex w-screen h-screen bg-[#f7f7f7] items-center justify-center">
+           <div class="left  w-1/2  flex-col items-center justify-center">
+               <div class="info flex gap-1 items-center justify-center">
+                  <img src="./5365678_fb_facebook_facebook logo_icon.png" class="h-1/6 w-1/6" alt="">
+                   <h1 class="text-[#126BA3] font-serif text-[3.5rem] ">Facebook</h1>
+                </div>
+               <p class="text-black text-2xl mx-[9rem] my-4"> Facebook helps you connect and share with people in your life  </p>
+            </div>
+            <div class="right w-1/2  flex flex-col items-center justify-center " >
+                           <div class="card bg-white flex flex-col items-center justify-center p-6 rounded-xl gap-2 w-1/2">
+                            <input type="text" class="  border border-spacing-2 border-1 border-gray-200 rounded-lg p-2 w-[290px] active:border-blue-700 hover:border-blue-700 " placeholder="Enter address or phone number">
+                            <input type="Password" class="  border border-spacing-2  border-gray-200 rounded-lg p-2 w-[290px]  active:border-blue-700 hover:border-blue-700 " placeholder="Password">
+                            <div class="login bg-blue-600 hover:bg-blue-700 rounded-lg text-white p-2 h-[30px] w-[300px] flex items-center justify-center">
+                                <button class="py-1" >Log In</button>
+                            </div>
+                            
+                            <span class="text-blue-500 text-sm">Forgotten Password?</span>
+                            <hr>
+                            <button class=" bg-green-500 hover:bg-green-600 rounded-lg text-white p-1 h-[30px] w-[180px] flex items-center justify-center">Create New Account</button>
+                           </div>
+            </div>
+    </div>
 </body>
 </html>
